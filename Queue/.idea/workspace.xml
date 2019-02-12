@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5b4b7f8-38be-47e9-b671-1ca2df18d4de" name="Default Changelist" comment="" />
+    <list default="true" id="f5b4b7f8-38be-47e9-b671-1ca2df18d4de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructure/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructure/Queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DataStructure/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataStructure/QueueTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,15 +35,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DataStructure/Queue/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="272">
+              <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
               <folding>
                 <element signature="e#109#110#0" expanded="true" />
                 <element signature="e#154#155#0" expanded="true" />
                 <element signature="e#285#286#0" expanded="true" />
                 <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DataStructure/QueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+            <state relative-caret-position="314">
+              <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#293#294#0" expanded="true" />
@@ -101,6 +102,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -109,8 +113,8 @@
         <option value="$PROJECT_DIR$/src/main/java/DataStructure/Queue/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataStructure/Queue/EmptyQueueError.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataStructure/Queue/EmptyQueueException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DataStructure/Queue/Queue.java" />
         <option value="$PROJECT_DIR$/src/test/java/DataStructure/QueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataStructure/Queue/Queue.java" />
       </list>
     </option>
   </component>
@@ -120,6 +124,7 @@
     <option name="width" value="1259" />
     <option name="height" value="701" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -197,7 +202,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549996059512" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549996993260" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -215,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueueTest">
+  <component name="RunManager" selected="JUnit.QueueTest.testIfDequeueMethodRemoveNodeFromQueue">
     <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Queue" />
       <extension name="coverage">
@@ -231,23 +236,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.testIfEnqueuMethodThrowsExceptionWhenParameterIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Queue" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataStructure.Queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DataStructure" />
-      <option name="MAIN_CLASS_NAME" value="DataStructure.QueueTest" />
-      <option name="METHOD_NAME" value="testIfEnqueuMethodThrowsExceptionWhenParameterIsNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.testIfNodeWillAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueTest.testIfDequeueMethodRemoveNodeFromQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Queue" />
       <extension name="coverage">
         <pattern>
@@ -257,7 +246,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="DataStructure" />
       <option name="MAIN_CLASS_NAME" value="DataStructure.QueueTest" />
-      <option name="METHOD_NAME" value="testIfNodeWillAdded" />
+      <option name="METHOD_NAME" value="testIfDequeueMethodRemoveNodeFromQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest.testIfDequeueMethodReturnFirstNodeValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Queue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DataStructure" />
+      <option name="MAIN_CLASS_NAME" value="DataStructure.QueueTest" />
+      <option name="METHOD_NAME" value="testIfDequeueMethodReturnFirstNodeValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -297,11 +302,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueueTest.testIfDequeueMethodRemoveNodeFromQueue" />
+        <item itemvalue="JUnit.QueueTest.testIfDequeueMethodReturnFirstNodeValue" />
         <item itemvalue="JUnit.QueueTest" />
         <item itemvalue="JUnit.QueueTest.testIfPeekThrowsEmptyQueueExceptionWhenQueueIsEmpty" />
         <item itemvalue="JUnit.QueueTest.testIfPeekMethodShowLastElement" />
-        <item itemvalue="JUnit.QueueTest.testIfEnqueuMethodThrowsExceptionWhenParameterIsNull" />
-        <item itemvalue="JUnit.QueueTest.testIfNodeWillAdded" />
       </list>
     </recent_temporary>
   </component>
@@ -319,27 +324,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueueTest_testIfEnqueuMethodThrowsExceptionWhenParameterIsNull - 2019.02.12 at 19h 02m 51s.xml">
-      <configuration name="QueueTest.testIfEnqueuMethodThrowsExceptionWhenParameterIsNull" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest - 2019.02.12 at 19h 02m 58s.xml">
-      <configuration name="QueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest - 2019.02.12 at 19h 04m 58s.xml">
-      <configuration name="QueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest - 2019.02.12 at 19h 08m 16s.xml">
-      <configuration name="QueueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_testIfPeekMethodShowLastElement - 2019.02.12 at 19h 15m 35s.xml">
-      <configuration name="QueueTest.testIfPeekMethodShowLastElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_testIfPeekMethodShowLastElement - 2019.02.12 at 19h 16m 04s.xml">
-      <configuration name="QueueTest.testIfPeekMethodShowLastElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_testIfPeekMethodShowLastElement - 2019.02.12 at 19h 16m 39s.xml">
-      <configuration name="QueueTest.testIfPeekMethodShowLastElement" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QueueTest_testIfPeekThrowsEmptyQueueExceptionWhenQueueIsEmpty - 2019.02.12 at 19h 20m 32s.xml">
       <configuration name="QueueTest.testIfPeekThrowsEmptyQueueExceptionWhenQueueIsEmpty" configurationId="JUnit" />
     </history-entry>
@@ -348,6 +332,27 @@
     </history-entry>
     <history-entry file="QueueTest - 2019.02.12 at 19h 21m 38s.xml">
       <configuration name="QueueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest - 2019.02.12 at 19h 27m 36s.xml">
+      <configuration name="QueueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_testIfDequeueMethodReturnFirstNodeValue - 2019.02.12 at 19h 32m 01s.xml">
+      <configuration name="QueueTest.testIfDequeueMethodReturnFirstNodeValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_testIfDequeueMethodReturnFirstNodeValue - 2019.02.12 at 19h 32m 35s.xml">
+      <configuration name="QueueTest.testIfDequeueMethodReturnFirstNodeValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_testIfDequeueMethodReturnFirstNodeValue - 2019.02.12 at 19h 33m 02s.xml">
+      <configuration name="QueueTest.testIfDequeueMethodReturnFirstNodeValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_testIfDequeueMethodRemoveNodeFromQueue - 2019.02.12 at 19h 35m 23s.xml">
+      <configuration name="QueueTest.testIfDequeueMethodRemoveNodeFromQueue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_testIfDequeueMethodRemoveNodeFromQueue - 2019.02.12 at 19h 36m 19s.xml">
+      <configuration name="QueueTest.testIfDequeueMethodRemoveNodeFromQueue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueTest_testIfDequeueMethodRemoveNodeFromQueue - 2019.02.12 at 19h 39m 21s.xml">
+      <configuration name="QueueTest.testIfDequeueMethodRemoveNodeFromQueue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -367,7 +372,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32954547" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3306189" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,6 +445,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructure/Queue/EmptyQueueException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DataStructure/Queue/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -457,36 +473,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructure/Queue/EmptyQueueException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DataStructure/Queue/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="272">
+          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
           <folding>
             <element signature="e#109#110#0" expanded="true" />
             <element signature="e#154#155#0" expanded="true" />
             <element signature="e#285#286#0" expanded="true" />
             <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DataStructure/QueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+        <state relative-caret-position="314">
+          <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#293#294#0" expanded="true" />

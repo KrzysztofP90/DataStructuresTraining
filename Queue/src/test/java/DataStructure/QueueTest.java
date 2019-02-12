@@ -71,6 +71,32 @@ public class QueueTest {
     }
 
 
+    @Test
+    public void testIfDequeueMethodReturnFirstNodeValue() {
+
+        queue.enqueue("Value1");
+        queue.enqueue("Value2");
+        queue.enqueue("Value3");
+
+        String firstExpectedValue = queue.getArrayOfNodes()[0].getValue();
+        String actualValue = queue.dequeue();
+
+        assertEquals(firstExpectedValue, actualValue);
+    }
+
+
+    @Test
+    public void testIfDequeueMethodRemoveNodeFromQueue() {
+        queue.enqueue("Value1");
+        queue.enqueue("Value2");
+        queue.enqueue("Value3");
+        queue.dequeue();
+
+        int expectedSize = 2;
+        int actualSize = queue.getArrayOfNodes().length;
+
+        assertEquals(expectedSize, actualSize);
+    }
 
 
 }

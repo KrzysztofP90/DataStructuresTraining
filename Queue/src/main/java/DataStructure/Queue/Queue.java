@@ -43,8 +43,17 @@ public class Queue {
         return arrayOfNodes[0].getValue();
     }
 
+
     public String dequeue() {
-        return "";
+        String firstValue = arrayOfNodes[0].getValue();
+        Node[] tempArray = arrayOfNodes.clone();
+        int sizeOfNewArrayOfNodes = tempArray.length - 1;
+        arrayOfNodes = new Node[sizeOfNewArrayOfNodes];
+
+        for (int i =1; i < sizeOfNewArrayOfNodes; i++) {
+            arrayOfNodes[i] = tempArray[i];
+        }
+        return firstValue;
     }
 
 
