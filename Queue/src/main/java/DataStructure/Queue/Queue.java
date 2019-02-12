@@ -37,14 +37,14 @@ public class Queue {
 
 
     public String peek() {
-        if (arrayOfNodes.length == 0) {
-            throw new EmptyQueueException();
-        }
+        throwExceptionIfQueueIsEmpty();
         return arrayOfNodes[0].getValue();
     }
 
 
     public String dequeue() {
+
+        throwExceptionIfQueueIsEmpty();
         String firstValue = arrayOfNodes[0].getValue();
         Node[] tempArray = arrayOfNodes.clone();
         int sizeOfNewArrayOfNodes = tempArray.length - 1;
@@ -54,6 +54,26 @@ public class Queue {
             arrayOfNodes[i] = tempArray[i];
         }
         return firstValue;
+    }
+
+
+    private void throwExceptionIfQueueIsEmpty() {
+        if (arrayOfNodes.length == 0) {
+            throw new EmptyQueueException();
+        }
+    }
+
+
+    public int size() {
+        return arrayOfNodes.length;
+    }
+
+
+    public boolean isEmpty() {
+        if (arrayOfNodes.length == 0) {
+            return true;
+        }
+        return false;
     }
 
 

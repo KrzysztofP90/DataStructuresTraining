@@ -98,5 +98,12 @@ public class QueueTest {
         assertEquals(expectedSize, actualSize);
     }
 
+    @Test
+    public void testIfDequeueThrowsEmptyQueueExceptionWhenQueueIsEmpty() {
+        assertThrows(EmptyQueueException.class, ()->queue.dequeue());
+    }
+
+
+
 
 }
